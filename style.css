@@ -1,0 +1,527 @@
+html{
+    height: 100%;
+    font-family: 'Lato', sans-serif; 
+    scroll-behavior: smooth;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    background-image: url(https://th.bing.com/th/id/R.90bf30177576532b1b82e156e6899db1?rik=wbSJCo7sQPSkiA&riu=http%3a%2f%2fwww.solofondos.com%2fwp-content%2fuploads%2f2015%2f11%2ffondo2.jpg&ehk=aQw%2bRpnjzaHXQwGRj1JoScgT3QUA0zdXbsKKEvDBlAM%3d&risl=&pid=ImgRaw&r=0);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 0px;
+    
+}
+/* header */
+header{
+    width: 100%;
+    height: 400px;
+    background: #bdc3c7;  
+    background: -webkit-linear-gradient(to right, hsla(210, 29%, 24%, 0.603), hsla(204, 8%, 76%, 0.61)), url(jklg.jpg);   
+    background: linear-gradient(to right, hsla(210, 29%, 24%, 0.603), hsla(204, 8%, 76%, 0.61)), url(jklg.jpg); 
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+ }
+ a{
+    text-decoration: none;
+    color: black;
+    margin-top: 0px;
+    font-size: 20px;
+ }
+ nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+ }
+ nav a {
+   font-weight: 300;
+    margin-right: 10px;
+ }
+    nav a:hover{
+       color: rgb(12, 70, 62);
+       text-decoration: underline;
+    } 
+    .wave{
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+    } 
+    header .texto-header{
+      display: flex;
+      flex-direction: column;
+      height: 230px;
+      width: 100%;
+      margin-top: 40px;
+      align-items: center;
+      text-align: center;
+    }
+    /* Cuerpo de la pagina */ 
+    .contenedor-pagina{        
+        background-color: rgba(160, 160, 160, 0.274);
+        margin: 10px;
+        padding: 40px;
+     }
+     .contenedor-principal{
+      display: flex;
+      height: 200px;
+      align-items: center;
+    }
+    .que-es{
+      width: 250px;
+      justify-content: center;
+      font-size: 30px;
+    }
+     .text-sport{
+      width: 700px;
+      font-size: 15px;
+   }
+   .img-depor{
+      width: 250px;
+      height: 200px;
+      border: 5px solid black;
+      border-radius: 10px;
+   }
+   .titulo-caracteristicas{
+      text-align: center;
+      font-size: 35px;
+   }
+   
+  .cards{
+      display: flex;
+      justify-content: space-evenly;
+  }
+  
+  .cards .card{
+      background: rgba(61, 91, 100, 0.678);
+      display: flex;
+      width: 500px;
+      height: 100px;
+      align-items: center;
+      justify-content: space-evenly;
+      border-radius: 10px;
+      box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
+      padding: 10px;
+      margin-bottom: 20px;
+  }
+  .card:hover{
+   box-shadow:0 0 60px rgb(12, 12, 12) ;
+   -webkit-transform:scale(0);transform:scale(1.1);
+  }
+  .cards .card img{
+      width: 90px;
+      height: 90px;
+      margin: 0px;
+      border: 3px solid hwb(0 3% 97%);
+      border-radius: 50%;
+      display: block;
+  }
+  
+  .cards .card > .contenido-texto-card{
+      width: 60%;
+      color:rgb(0, 0, 0);
+  }
+  
+  .cards .card > .contenido-texto-card p{
+      font-weight: 300;
+      padding-top: 5px;
+  }
+  
+  .caracteristica-2 {
+      margin: auto;
+      padding: 0;
+      box-sizing: border-box;
+      overflow: hidden;
+  }
+  .caracteristica-3 {
+      margin: auto;
+      box-sizing: border-box;
+      overflow: hidden;
+  }
+  .titulo-tipos{
+      text-align: center;
+      font-size: 35px;
+  }
+  .tipo-depor{
+   display: flex;
+   background-color: #7983856e;
+  }
+  .text-deport{
+   margin: 20px;
+   width: 60%;
+  }
+  .video.depor{
+   width: 40%;
+  }
+  .video-deport{
+   width: 400px;
+   height: 250px;
+   margin: 50px;
+   border-radius: 10px;
+  }
+  b{
+   font-size:20px ;
+  }
+  li{
+  margin: 10px;
+  }
+
+  
+  
+    /* Footer */
+footer{
+   margin-top: auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: rgba(7, 7, 7, 0.589);
+   font-size: 14px;
+   background-image: linear-gradient(to bottom, #afb9cb, #9ea7b9, #8d96a7, #7d8596, #6d7485, #636b7e, #586176, #4e586f, #47536f, #3f4e6f, #374a6f, #2f456f);
+}
+.contenedor-footer{
+    height: 100%;
+    display: grid;
+    justify-content: center;
+ }
+.seguir{
+   text-align: center;
+ }
+.redes-sociales{
+    width: 100%;
+    display: flex;
+   align-items: center;
+    flex-wrap: wrap;
+    cursor: pointer;
+   
+ }
+ svg{
+    height: 80px;
+   
+ }
+.icon{
+  position: relative;
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+    border-radius: 50%;
+    transition: all .8s;
+}
+.instagram:hover{
+    background-color: #e60073;
+    box-shadow: 0 0 20px #e60073;
+ }
+.facebook:hover{
+    background-color: #1877f2;
+    box-shadow: 0 0 20px #1877f2;
+ }
+.tik-tok:hover{
+    background-color: white;
+    box-shadow: 0 0 20px white;
+ }
+.whatsapp:hover{
+    background-color: #25d366;
+    box-shadow: 0 0 20px #25d366;
+ }
+.redes-sociales i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 30px;
+ }
+svg circle{
+    stroke-dasharray: 120;
+    transition: all .8s ease-in-out;
+ }
+.icon:hover circle{
+    stroke-dasharray: 220;
+ }
+.derechos{
+    text-align: center;
+ }
+ /* Pagina de login */
+ .body-login{
+   background-image: url(james-sullivan-x8l63IUeuwQ-unsplash.jpg);
+ }
+ .header-login{
+   margin-right:1150px ;
+ }
+ .volver-login{
+   font-size: 39px;
+   border: none ;
+   background-color: transparent;
+   cursor: pointer;
+ }
+ .volver-login :hover{
+   color: #3e4149;
+ }
+ .contenedor-inicial{
+   display: flex;
+   margin: 0px auto;
+   width: 600px;
+   height: 400px;
+   padding: 50px;
+  }
+.contenedor-imagen{
+   width: 300px;
+   height: 400px;
+   background-color: #bdc3c780;
+
+}
+img{
+   display: block;
+   width: 195px;
+   height: 210px;
+   margin-top:55px;
+   margin-left: 50px;
+  }
+.contenedor-login{
+   display:flex;
+   flex-direction: column;
+   justify-items: center;
+   width: 300px ;
+   height:400px ;
+   background-color: #bdc3c780;
+}
+.contenedor-login ::placeholder{
+   color: black;
+}
+.titulo-login{ 
+   color: black;
+   font-size: 35px;
+   text-align: center;
+   margin: 20px auto 40px ;
+   margin-top: 40px;
+}
+input{
+   border: transparent;
+   border-bottom: 2px solid black;
+   background-color: transparent;
+   outline: none;
+   margin: 10px auto;
+   width: 80%;
+   padding: 5px;
+   font-size:15px ;
+   cursor: pointer;
+}
+input:focus{
+  border-bottom: 2px solid rgb(0, 35, 82);
+}
+.olvidar-contra{
+   color: black;
+   margin-left: 100px;
+   font-size: 15px;
+  }
+.olvidar-contra:hover{
+  color: rgb(70, 70, 70);
+}
+.contenedor-botones{
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+   width: 100%;
+
+}
+.boton{
+   justify-items: center;
+   width:100px;
+   height:30px;
+   cursor: pointer;
+   padding: 5px;
+   font-size: 15px;
+   border-radius:10px ;
+}
+.sign-up{
+   color: rgb(3, 3, 3);
+   background-color: rgb(238, 242, 245);
+   border: none;
+}
+.login{
+   color: black;
+   background-color: rgb(4, 112, 126);
+   border: none;
+}
+.sign-up:hover{
+   background-color: rgb(191, 195, 199);
+}
+.login:hover{
+   background-color: rgb(21, 61, 66);
+   }
+/* PAGINA DE REGISTRO */
+.body-registro{
+   background-image: url(dennis-eusebio-AESGnCwY9Rk-unsplash.jpg) ;
+}
+.contenedor-registro{
+   display: flex;
+   justify-content: center;
+   margin: 0px auto;
+   margin-top: 30px;
+   width: 850px;
+   height: 100%;
+}
+.volver{
+  margin: 0px;
+  font-size: 40px;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  color: black;
+
+}
+.volver:hover{
+  color: rgb(97, 96, 96);
+}
+.registro{
+display: flex;
+flex-direction: column;
+justify-items: center;
+width: 500px;
+height: 600px; 
+background-color: rgba(193, 201, 218, 0.61);
+/* border: 1px solid black; */
+border-radius: 10px;
+}
+.registro ::placeholder{
+   color: rgb(44, 43, 43);
+}
+.titulo-registro{
+   font-size: 30px;
+   text-align: center;
+   color: black;
+   margin: 40px auto 5px;
+   margin-bottom: 30px;
+   margin-top: -10px;
+}
+/* ubicacion boton registrarse */
+.bot-registro{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+ margin-top: 30px;
+  
+}
+.registrarse{
+  justify-items: center;
+  width:200px;
+  height:30px;
+  cursor: pointer;
+  padding: 5px;
+  font-size: 15px;
+  border-radius:5px   
+}
+/* diseño boton registrarse */
+.cuerpo-recuperar{
+   background-image: url(tyler-clemmensen-Zs_L-plsZzg-unsplash.jpg);
+
+}
+
+.registrarse{
+  color: black;
+  background-color: rgb(120, 121, 121);
+  border: 1px solid black;
+
+}
+.registrarse:hover{
+   background-color: rgb(68, 70, 69);
+}
+.contenedor-modal{
+   background-color: rgba(204, 204, 204, 0.829);
+   width: 600px;
+   height: 200px;
+   margin-top: -400px;
+   margin-left: 380px;
+   border-radius: 5px;
+   text-align: center;
+   opacity: 0;
+}
+.regis-exitoso{
+   margin-top: 30px;
+   font-size: 30px;
+}
+.volver-modal i{
+   margin-top: 10px;
+   font-size: 35px;
+   margin-left: 550px;
+}
+.show{
+   pointer-events: auto;
+   opacity: 1;
+}
+  /* Recuperar contraseña */
+.recuperar-contraseña{
+   width: 540px;
+   height: 255px;
+   margin-top: 180px;
+   margin-left: 400px;
+}
+.contenedor-recuperar-contraseña{
+   height: 397px;
+   margin: auto;
+   justify-items: center;
+}
+.volver-recuperar{
+  font-size: 30px;
+  cursor: pointer;
+  border: none;
+  background-color:transparent;
+  color: black;
+ margin-left: -10px;
+ margin-top: -10px;
+}
+.volver-recuperar :hover{
+   color: #868788;
+}
+h1{
+   text-align: center;
+   color: black;
+   font-size: 40px;
+   margin-top: -10px;
+
+}
+.contenedor-recuperar{
+   width: 500px;
+   padding: 20px;
+   background-color: rgba(247, 248, 248, 0.74);
+}
+
+.ingrese-correo{
+   font-size: 20px;
+   text-align: center;
+}
+.contenedor-recuperar ::placeholder{
+   color: black;
+}
+.correo{
+   width: 100%;
+}
+.enviar{
+   background-color: rgb(126, 123, 123);
+   border: none;
+   cursor: pointer;
+   font-size: 17px;
+   margin-left: 405px;
+   margin-top: 20px;
+}
+.enviar:hover{
+   background-color: rgb(88, 46, 46);
+}
+.modal-contenedor{
+   background-color: rgb(117, 116, 116);
+   width: 600px;
+   height: 200px;
+   border-radius: 10px;
+   text-align: center;
+   margin-top: -230px;
+   margin-left: 370px;
+   opacity: 0;
+}
+.volver-recu{
+   margin-top: 10px;
+   font-size: 35px;
+   margin-left: 550px;
+   cursor: pointer;
+}
+.showre{
+  pointer-events: auto;
+  opacity: 1;
+}
